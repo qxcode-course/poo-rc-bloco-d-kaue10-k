@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-26_13-33-53",
+            "content": "@@ -1,110 +1,4 @@\n-class Telefone:%0A    def __init__ (self, id, numero):%0A        self.id = id %0A        self.numero = numero%0A%0A    %0A\n+def \n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-11-28_10-51-52",
+            "content": "@@ -101,56 +101,8 @@\n ero%0A\n-sdhbdfsjkdffksdfkdfvgdkfgjkdfggdbhdfrueriivbgvov\n %0A   \n",
+            "lines": "6"
+        },
+        {
+            "label": "2025-11-28_10-53-05",
+            "content": "@@ -101,96 +101,56 @@\n ero%0A\n-%0A    def __str__(self):%0A        return f%22%7Bself.id%7D:%7Bself.numero%7D%22%0A%0A%0Aclass Contato:%0A    %0A\n+sdhbdfsjkdffksdfkdfvgdkfgjkdfggdbhdfrueriivbgvov\n %0A   \n",
+            "lines": "6"
+        },
+        {
+            "label": "2025-11-28_10-55-28",
+            "content": "@@ -184,130 +184,8 @@\n to:%0A\n-    def __init__(self, nome):%0A        self.nome = nome%0A        self.telefone = %5B%5D%0A        self.favorito = false %0A        %0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2025-11-28_10-58-03",
+            "content": "@@ -305,652 +305,8 @@\n     \n-jjhdhhhhhhhhhhhhhhhhjdjghggggggggggggfgfgfgfgfgfdggdfgdfdfgdddfggdfgdfddfgdfdgdgdgdfgdgdfdddfgddddgdgdfggdggdfggdfgdfgggggfdfgfgdfgggfgfgdgdfggdgdggdgdgdgdgdgddgddgdfgdfdgdgdgdfdfgdfgfdgdfgdfgdfgdfgdgdfgdfgdgdfgdgdfgdfgdfgdfgdfgfdfgdgssgsfdgdfgfdgfdgfdgfdgfgdfdgfgdfdggffdgfdgggfddfdgfdgdfgdfgdfgdfggffdgddddgdgdgdfgdgdgdfgdfgdfgdgdggfdgdfgdfgdgdfgfdgdfgdgdgddgfdgggggggdfgdgdfgdfgdfgddfgdfgdgdfgfdfgdfgfdfdfgdgdgdggdfdfggdgdfgdggdbbcvbvbvbcvbbvbcbbfgggfhgfgfdfgffdhfgdfhghhhhdhgdgdfghdghdghdghghddhhdghhghdhhfhhhhhhghdghdgggdhdgdghfhhdfhfhghdhghhdghdghdghdghdghdghdghdgdgdgdgdghdghdgddfghfdfghdhgdhgdfghdghddghhdfghdddddddgfhdghddhghdghhdfghd%0A\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2025-11-28_11-30-50",
+            "content": "class Telefone:\n    def __init__ (self, id, numero):\n        self.id = id \n        self.numero = numero\n\n    def __str__(self):\n        return f\"{self.id}:{self.numero}\"\n\n\nclass Contato:\n    def __init__(self, nome):\n        self.nome = nome\n        self.telefone = []\n        self.favorito = false \n        jjhdhhhhhhhhhhhhhhhhjdjghggggggggggggfgfgfgfgfgfdggdfgdfdfgdddfggdfgdfddfgdfdgdgdgdfgdgdfdddfgddddgdgdfggdggdfggdfgdfgggggfdfgfgdfgggfgfgdgdfggdgdggdgdgdgdgdgddgddgdfgdfdgdgdgdfdfgdfgfdgdfgdfgdfgdfgdgdfgdfgdgdfgdgdfgdfgdfgdfgdfgfdfgdgssgsfdgdfgfdgfdgfdgfdgfgdfdgfgdfdggffdgfdgggfddfdgfdgdfgdfgdfgdfggffdgddddgdgdgdfgdgdgdfgdfgdfgdgdggfdgdfgdfgdgdfgfdgdfgdgdgddgfdgggggggdfgdgdfgdfgdfgddfgdfgdgdfgfdfgdfgfdfdfgdgdgdggdfdfggdgdfgdggdbbcvbvbvbcvbbvbcbbfgggfhgfgfdfgffdhfgdfhghhhhdhgdgdfghdghdghdghghddhhdghhghdhhfhhhhhhghdghdgggdhdgdghfhhdfhfhghdhghhdghdghdghdghdghdghdghdgdgdgdgdghdghdgddfghfdfghdhgdhgdfghdghddghhdfghdddddddgfhdghddhghdghhdfghd\n\n    \n\n    \n",
+            "lines": "19"
+        }
+    ]
+}
