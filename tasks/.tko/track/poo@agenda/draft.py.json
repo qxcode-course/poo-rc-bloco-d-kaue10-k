@@ -27,8 +27,53 @@
         },
         {
             "label": "2025-11-28_11-30-50",
-            "content": "class Telefone:\n    def __init__ (self, id, numero):\n        self.id = id \n        self.numero = numero\n\n    def __str__(self):\n        return f\"{self.id}:{self.numero}\"\n\n\nclass Contato:\n    def __init__(self, nome):\n        self.nome = nome\n        self.telefone = []\n        self.favorito = false \n        jjhdhhhhhhhhhhhhhhhhjdjghggggggggggggfgfgfgfgfgfdggdfgdfdfgdddfggdfgdfddfgdfdgdgdgdfgdgdfdddfgddddgdgdfggdggdfggdfgdfgggggfdfgfgdfgggfgfgdgdfggdgdggdgdgdgdgdgddgddgdfgdfdgdgdgdfdfgdfgfdgdfgdfgdfgdfgdgdfgdfgdgdfgdgdfgdfgdfgdfgdfgfdfgdgssgsfdgdfgfdgfdgfdgfdgfgdfdgfgdfdggffdgfdgggfddfdgfdgdfgdfgdfgdfggffdgddddgdgdgdfgdgdgdfgdfgdfgdgdggfdgdfgdfgdgdfgfdgdfgdgdgddgfdgggggggdfgdgdfgdfgdfgddfgdfgdgdfgfdfgdfgfdfdfgdgdgdggdfdfggdgdfgdggdbbcvbvbvbcvbbvbcbbfgggfhgfgfdfgffdhfgdfhghhhhdhgdgdfghdghdghdghghddhhdghhghdhhfhhhhhhghdghdgggdhdgdghfhhdfhfhghdhghhdghdghdghdghdghdghdghdgdgdgdgdghdghdgddfghfdfghdhgdhgdfghdghddghhdfghdddddddgfhdghddhghdghhdfghd\n\n    \n\n    \n",
-            "lines": "19"
+            "content": "@@ -1,28 +1,179 @@\n-class Telefone:%0A   \n+@@ -1,359 +1,1650 @@%0A-class Telefone:%0A+@@ -1,12 +1,33 @@%250A+@@ -1,359 +1,714 @@%25250A-%250A class Telefo%250A@@ -29,17 +29,19 @@%250A elefone:%250A-%25250A%250A+%2525250A%0A %250A    %0A+ %0A\n  def \n+%0A-\n __in\n@@ -196,17 +196,19 @@\n numero):\n-%0A\n+%250A\n         \n@@ -220,17 +220,19 @@\n id = id \n-%0A\n+%250A\n         \n@@ -251,18 +251,22 @@\n = numero\n-%0A%0A\n+%250A%250A\n     def \n@@ -279,17 +279,19 @@\n _(self):\n-%0A\n+%250A\n         \n@@ -302,20 +302,28 @@\n rn f\n-%22%7B\n+%2522%257B\n self.id\n-%7D:%7B\n+%257D:%257B\n self\n@@ -333,13 +333,23 @@\n mero\n-%7D%22%0A%0A%0A\n+%257D%2522%250A%250A%250A\n clas\n@@ -358,17 +358,19 @@\n Contato:\n-%0A\n+%250A\n     def \n@@ -390,17 +390,19 @@\n , nome):\n-%0A\n+%250A\n         \n@@ -417,17 +417,19 @@\n e = nome\n-%0A\n+%250A\n         \n@@ -448,11 +448,17 @@\n e = \n-%5B%5D%0A\n+%255B%255D%250A\n     \n@@ -487,25 +487,1882 @@\n lse \n-%0A        %0A    %0A%0A    \n+%250A        jjhdhhh%250Afsdfhsgdsdskjdfskdfgsfgsjfgsjfs%250A    %250A%250A    %0A+%250A@@ -68,17 +68,19 @@%250A numero):%250A-%25250A%250A+%2525250A%250A         %250A@@ -92,17 +92,19 @@%250A id = id %250A-%25250A%250A+%2525250A%250A         %250A@@ -123,18 +123,22 @@%250A = numero%250A-%25250A%25250A%250A+%2525250A%2525250A%250A     def %250A@@ -151,17 +151,19 @@%250A _(self):%250A-%25250A%250A+%2525250A%250A         %250A@@ -174,20 +174,28 @@%250A rn f%250A-%252522%25257B%250A+%25252522%2525257B%250A self.id%250A-%25257D:%25257B%250A+%2525257D:%2525257B%250A self%250A@@ -205,13 +205,23 @@%250A mero%250A-%25257D%252522%25250A%25250A%25250A%250A+%2525257D%25252522%2525250A%2525250A%2525250A%250A clas%250A@@ -230,17 +230,19 @@%250A Contato:%250A-%25250A%250A+%2525250A%250A     def %250A@@ -262,17 +262,19 @@%250A , nome):%250A-%25250A%250A+%2525250A%250A         %250A@@ -289,17 +289,19 @@%250A e = nome%250A-%25250A%250A+%2525250A%250A         %250A@@ -320,11 +320,17 @@%250A e = %250A-%25255B%25255D%25250A%250A+%2525255B%2525255D%2525250A%250A     %250A@@ -355,17 +355,19 @@%250A = false %250A-%25250A%250A+%2525250A%250A         %250A@@ -373,17 +373,19 @@%250A  jjhdhhh%250A-%25250A%250A+%2525250A%250A fsdfhsgd%250A@@ -411,16 +411,753 @@%250A sjfs%250A-%25250A    %25250A%250A+%2525250A    %2525250A%2525250A %25250A+@@ -312,40 +312,645 @@%2525250A dhhh%2525250A-%252525250Afsdfhsgdsdskjdfskdfgsfgsjfgsjfs%2525250A+hhhhhhhhhhhhhjdjghggggggggggggfgfgfgfgfgfdggdfgdfdfgdddfggdfgdfddfgdfdgdgdgdfgdgdfdddfgddddgdgdfggdggdfggdfgdfgggggfdfgfgdfgggfgfgdgdfggdgdggdgdgdgdgdgddgddgdfgdfdgdgdgdfdfgdfgfdgdfgdfgdfgdfgdgdfgdfgdgdfgdgdfgdfgdfgdfgdfgfdfgdgssgsfdgdfgfdgfdgfdgfdgfgdfdgfgdfdggffdgfdgggfddfdgfdgdfgdfgdfgdfggffdgddddgdgdgdfgdgdgdfgdfgdfgdgdggfdgdfgdfgdgdfgfdgdfgdgdgddgfdgggggggdfgdgdfgdfgdfgddfgdfgdgdfgfdfgdfgfdfdfgdgdgdggdfdfggdgdfgdggdbbcvbvbvbcvbbvbcbbfgggfhgfgfdfgffdhfgdfhghhhhdhgdgdfghdghdghdghghddhhdghhghdhhfhhhhhhghdghdgggdhdgdghfhhdfhfhghdhghhdghdghdghdghdghdghdghdgdgdgdgdghdghdgddfghfdfghdhgdhgdfghdghddghhdfghdddddddgfhdghddhghdghhdfghd%252525250A%2525250A %252525250A%250A %25250A    %250A+%2525250A%250A %25250A%0A %250A\n %0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-11-29_11-38-31",
+            "content": "@@ -305,108 +305,8 @@\n     \n-%0A%0A    def ad_telefone(self, id, numero):%0A        self.telefone.append(telefone(id, numero))%0A        \n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2025-11-29_11-42-01",
+            "content": "@@ -397,62 +397,16 @@\n o))%0A\n-%0A    def remover_telefone(self, id):%0A        lkkjhglk%0A\n+        \n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-11-29_13-48-13",
+            "content": "@@ -1,458 +1,160 @@\n-class Telefone:%0A    def __init__ (self, id, numero):%0A        self.id = id %0A        self.numero = numero%0A%0A    def __str__(self):%0A        return f%22%7Bself.id%7D:%7Bself.numero%7D%22%0A%0A%0Aclass Contato:%0A    def __init__(self, nome):%0A        self.nome = nome%0A        self.telefone = %5B%5D%0A        self.favorito = false %0A        %0A%0A    def ad_telefone(self, id, numero):%0A        self.telefone.append(telefone(id, numero))%0A%0A    def remover_telefone(self, id):%0A        %0A%0A    %0A%0A  \n+@@ -442,117 +442,16 @@%0A     %0A-fggjjhhjh vhhhjghj ggghjjhggjhgjg jhfhhhgf jhfggg hgghgftyyyufy hghjkvjhgh gvvjhhjvhv ggvvgvggv ggyccychg gkh%0A+lkkjhglk%0A %250A%250A\n   %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2025-11-29_13-51-28",
+            "content": "@@ -442,89 +442,8 @@\n     \n-self.telefone = %5Bt for t in self.telefone if t.id != id%5D%0A%0A%0A    def __str__(self):\n %0A%0A  \n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-11-29_14-05-41",
+            "content": "@@ -523,161 +523,8 @@\n lf):\n-%0A        fav = %22*%22 if self.favorito else %22%22%0A        tel = %22,%22.join(str(t) for t in self.telefone)%0A        return f%22%5B%7Bfav%7D%5D %7Bself.nome%7D -%3E %7Btel%7D%22%0A        \n %0A%0A  \n",
+            "lines": "28"
+        },
+        {
+            "label": "2025-11-29_14-27-17",
+            "content": "@@ -663,17 +663,16 @@\n %3E %7Btel%7D%22\n- \n %0A       \n@@ -676,12 +676,8 @@\n     \n-def%0A\n %0A%0A  \n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-11-29_14-39-38",
+            "content": "@@ -676,17 +676,16 @@\n      def\n- \n %0A%0A%0A    %0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-11-29_14-47-26",
+            "content": "@@ -681,20 +681,8 @@\n def \n-dhjfjdhdgfgf\n %0A%0A%0A \n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-11-29_14-48-43",
+            "content": "class Telefone:\n    def __init__ (self, id, numero):\n        self.id = id \n        self.numero = numero\n\n    def __str__(self):\n        return f\"{self.id}:{self.numero}\"\n\n\nclass Contato:\n    def __init__(self, nome):\n        self.nome = nome\n        self.telefone = []\n        self.favorito = false \n        \n\n    def ad_telefone(self, id, numero):\n        self.telefone.append(telefone(id, numero))\n\n    def remover_telefone(self, id):\n        self.telefone = [t for t in self.telefone if t.id != id]\n\n\n    def __str__(self):\n        fav = \"*\" if self.favorito else \"\"\n        tel = \",\".join(str(t) for t in self.telefone)\n        return f\"[{fav}] {self.nome} -> {tel}\" \n        def dhjfjdhdgfgf\n\n\n    \n\n    \n",
+            "lines": "33"
         }
     ]
 }
