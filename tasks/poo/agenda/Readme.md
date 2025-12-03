@@ -15,21 +15,6 @@ Essa atividade é uma continuação da @014 Contato. Lá é explicado com mais d
 
 ## Intro
 
-- Adicionar contato
-  - O contato possui o nome como chave.
-  - Se tentar adicionar outro contato com o mesmo nome, adicione os telefones ao contato existente.
-  - Adicionar os novos números de telefone no contato já existente.
-- Mostrar
-  - Mostrar os contatos da agenda pela ordem alfabética.
-- Remoção
-  - Remover contato pela chave.
-  - Remover telefone do contato.
-- Busca
-  - Fazer uma busca por padrão em todos os atributos do contato, nome e telefones.
-  - Se o contato tiver qualquer campo que combine com a string pattern de busca, ele deve ser retornado. Se o pattern é maria, devem ser retornados os contatos como "maria julia", "mariana", "ana maria", etc. Também inclua na busca o id do telefone ou o número do telefone.
-- Favoritos
-  - Favoritar e Desfavoritar um contato.
-  - Mostrar os favoritos.
 ***
 
 ## Guide
